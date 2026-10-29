@@ -10,7 +10,8 @@
     "db:local": "wrangler d1 migrations apply fanwaner --local",
     "db:remote": "wrangler d1 migrations apply fanwaner --remote",
     "font:download": "node scripts/download-font.mjs",
-    "font:upload": "node scripts/upload-font.mjs"
+    "font:upload": "node scripts/upload-font.mjs",
+    "build": "vite build"
   },
   "devDependencies": {
     "cf-workers-og": "^3.0.1",
